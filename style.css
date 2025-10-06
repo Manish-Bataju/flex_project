@@ -36,11 +36,12 @@ header{
     font-size: 13px;
     font-weight: 400;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 .logo_name .name:hover{
     color: #fbff00;
     border-bottom: 2px solid #fbff00;
-    transform: scale(1.0);
+    transform: scale(1.05);
 }
 
 .nav_list{
@@ -50,27 +51,37 @@ header{
       list-style: none;
 }
 .nav_list .link{
+    display: inline-block;
     font-size: 20px;
     font-weight: 400;
     padding: 0 20px;
     color: #77fff8;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav_list .link:hover{
     color: #fbff00;
     border-bottom: 2px solid #fbff00;
-    transform: scale(1.0);
+    transform: scale(1.05);
+}
+.button_list{
+    display: flex;
+    align-items: center;
 }
 
 .button_list .login{
+    display: inline-block;
     font-size: 20px;
     font-weight: 600px; 
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     color: aqua;
+    transition: all 0.3s ease-in-out;
 }
+
 .button_list .login1{
+    display: inline-block;
     font-size: 20px;
     font-weight: 600px; 
     background-color: aqua;
@@ -78,7 +89,21 @@ header{
     padding: 0px 8px;
     text-decoration: none;
     color: #2A3342;
+    transition: all 0.3s ease-in-out;
 }
+
+.button_list .login:hover{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    transform: scale(1.05);
+}
+
+.button_list .login1:hover{
+    background-color: yellow;
+    border-bottom: 2px solid yellow;
+    transform: scale(1.05);
+}
+
 section{
     display: flex;
     align-items: center;
